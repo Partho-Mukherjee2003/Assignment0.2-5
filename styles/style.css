@@ -12,3 +12,19 @@
   rgba(1, 50, 35, 1) 100%
 );
 }
+.historyList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAFAFA;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+  list-style: none;
+}
+#history{
+  list-style: none;
+}
+.historyTitle{
+  font-weight: 700;
+}
