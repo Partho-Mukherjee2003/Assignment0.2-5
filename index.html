@@ -40,7 +40,7 @@
   <p id="coin" class="font-bold px-2">100 </p>
 <img  class="w-[20px] h-[20px]" src="./assets/coin.png" alt="">
 </div>
-<p class="bg-[#00A63E] text-white p-2 rounded-xl font-semibold px-4" >2 Copy</p>
+<p  class="bg-[#00A63E] text-white p-2 rounded-xl font-semibold px-4" ><span id="copydiv">2</span> Copy</p>
   </div>
 </section>
 <!-- Banner section -->
@@ -69,7 +69,7 @@
     <h1 class="text-2xl pt-4  font-bold">999</h1>
     <p class="bg-[#D4D6D5] w-[40px] mb-3 p-2 rounded-xl">All</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="copybtn" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-1-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -86,7 +86,7 @@
     <h1 class="text-2xl pt-3  font-bold">999</h1>
     <p class="bg-[#D4D6D5] w-[60px] mb-3 p-2 rounded-xl">Police</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','999')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-2-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -103,7 +103,7 @@
     <h1 class="text-2xl pt-4  font-bold">999</h1>
     <p class="bg-[#D4D6D5] w-[40px] mb-3 p-2 rounded-xl">Fire</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','999')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-3-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -120,7 +120,7 @@
     <h1 class="text-2xl pt-4  font-bold">1994-999999</h1>
     <p class="bg-[#D4D6D5] w-[70px] mb-3 p-2 rounded-xl">Health</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','1994-999999')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-4-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -137,7 +137,7 @@
     <h1 class="text-2xl pt-4  font-bold">109</h1>
     <p class="bg-[#D4D6D5] w-[50px] mb-3 p-2 rounded-xl">Help</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','109')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-5-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -154,7 +154,7 @@
     <h1 class="text-2xl pt-4  font-bold">106</h1>
     <p class="bg-[#D4D6D5] w-[50px] mb-3 p-2 rounded-xl">Govt.</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','106')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-6-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -171,7 +171,7 @@
     <h1 class="text-2xl pt-4  font-bold">16216</h1>
     <p class="bg-[#D4D6D5] w-[80px] mb-3 p-2 rounded-xl">Electricity</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','16216')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-7-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -188,7 +188,7 @@
     <h1 class="text-2xl pt-4  font-bold">16445</h1>
     <p class="bg-[#D4D6D5] w-[50px] mb-3 p-2 rounded-xl">NGO</p>
     <div class="flex gap-2">
-      <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button onclick="copyNumberIncrease('copydiv','16445')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
       <button id="card-8-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -205,7 +205,7 @@
     <h1 class="text-2xl pt-4  font-bold">163</h1>
     <p class="bg-[#D4D6D5] w-[65px] mb-3 p-2 rounded-xl">Travel</p>
     <div class="flex gap-2">
-    <button class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
+    <button onclick="copyNumberIncrease('copydiv','163')" class="btn  border-2 text-[#5c5c5c] border-[#D4D6D5] bg-[#ffffff] w-1/2"><i class="fa-regular fa-copy"></i>Copy</button>
     <button id="card-9-callbtn" class="btn  bg-[#00A63E] text-white  w-1/2"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
   </div>
@@ -231,7 +231,7 @@
     </div>
   </div>
   <div id="listDiv">
-    
+
   </div>
 </div>
 </div>

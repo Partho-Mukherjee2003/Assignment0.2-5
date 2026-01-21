@@ -23,3 +23,19 @@ function alertFunction(serviceName,Number){
                         </div>`
   historyDiv.appendChild(newHistory);
 }
+
+
+// copy shared function
+function copyNumberIncrease (id,number){
+  alert(`Number ${number} is Copied`);
+  const copydiv = document.getElementById(id);
+  const copyDivNumber = document.getElementById(id).innerText;
+  let convertedCopyDivNumber = parseInt(copyDivNumber);
+  convertedCopyDivNumber = convertedCopyDivNumber + 1;
+  copydiv.innerText = convertedCopyDivNumber;
+navigator.clipboard
+  .writeText(number)
+
+}
+
+

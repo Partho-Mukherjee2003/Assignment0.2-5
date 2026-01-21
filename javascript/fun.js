@@ -181,3 +181,12 @@ document.getElementById("clearHistory")
       .addEventListener("click",function(){
         document.getElementById("listDiv").innerHTML = "";
       })
+
+
+// CopyBtn Funtionality
+document.getElementById("copybtn").addEventListener("click",function(){
+
+  copyNumberIncrease('copydiv','999');
+
+})
+

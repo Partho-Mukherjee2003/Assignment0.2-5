@@ -12,7 +12,7 @@ Ans:
 Ans:
 ## const ul = document.getElementById("ul");
 ## const li = document.createElement('li');
-## li.innerText = "New Service Added";
+## li.innerText = "New li Added";
 ## ul.appendChild(li);
 
 **3.What is Event Bubbling and how does it work?**
